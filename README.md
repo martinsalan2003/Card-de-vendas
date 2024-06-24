@@ -1,6 +1,6 @@
 # Carta de venda
 
-![preview](./assets/preview.jfif)
+![preview](./assets/preview.png)
 
 
  >Pensando e Praticando
