@@ -8,7 +8,7 @@
     projeto realizado para praticar e expor aprendeizado. 
 
 
-[Clique aqui para ascessar]()
+[Clique aqui para ascessar](https://martinsalan2003.github.io/Card-de-vendas/)
 
 
 ## Tecnologias
