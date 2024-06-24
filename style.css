@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: rgba(33, 33, 207, 0.767);
+}
+
+header h1, .apresentacao {
+    color: white;
+    text-align: center;
+}
+.apresentacao{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 1rem;
+}
+h1 {
+    font-family: outfit;
+    margin-top: 2rem;
+}
+h2 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    background-color: rgba(33, 33, 207, 0.767);
+    padding:10px 14px;
+    font-family: outfit; 
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    cursor: default;
+    border-radius: 20px;
+    width: 20rem;
+    height: 28rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: rgba(245, 245, 220, 0.685);
+    display: block;
+    transition: 1s;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+}
+.beneficios ul li {
+    padding: 0.4rem 0.5rem;
+    gap: 2rem;
+    display: flex;
+}
+
+.card a {
+    font-family: outfit; 
+    margin-top: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(33, 33, 207, 0.767);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 10PX 40PX;
+    text-align: center;
+}
+
+.card ul li img {
+    height: 1.5rem;
+}
+.card p {
+    text-align: center;
+}
+.sifrao {
+    font-family: "Sora", sans-serif;    
+    color: rgba(33, 33, 207, 0.767);
+    font-size: 30px;
+}
+span {
+    font-family: "Sora", sans-serif;
+    color: rgb(2, 33, 117);
+    font-size: 5rem;
+}
+.mod-plano{
+    font-family: "Sora", sans-serif;  
+    color: rgba(33, 33, 207, 0.767);
+    margin: 15px;
+    font-size: 20px;
+}
+#bg-fundo {
+    background-image: url(./assets/bg-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    opacity: 0.6;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+ul li p {
+    font-family: "Sora", sans-serif; 
+    font-size: 1.2rem;
+    color: blue;
+}
+
+.desmarcado {
+    color: #6b6969c2;
+    text-decoration:line-through;
+}
+
+.megas {
+    font-size: 12px;
+    color: blue;
+}
+
+
+/* interações */
+
+.card:hover {
+    scale: 1.1;
+}
+
+/* comportamentos */
+@media (width < 4rem) {
+    html{
+        font-size: 70%;
+    }
+    .container {
+     display: flex;
+      flex-direction: column;
+    }
+    
+}
